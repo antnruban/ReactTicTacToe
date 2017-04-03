@@ -13,3 +13,7 @@ A tic-tac-toe game for two players.
 ### Scripts
 * `npm run build` builds the app for production to the `build` folder.
 * `npm run lint` runs `eslint` at `src` according `.eslintrc` file configurations.
+
+#### Demo
+
+See the demo at [Heroku](https://react-tic-tac-toe-demo.herokuapp.com).
