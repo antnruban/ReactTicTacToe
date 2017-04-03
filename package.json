@@ -1,5 +1,5 @@
 {
-  "name": "daxx_test",
+  "name": "tic_tac_toe",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,7 +15,10 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "eject": "react-scripts eject",
-    "lint": "node_modules/.bin/eslint ./src"
+    "lint": "node_modules/.bin/eslint ./src",
+    "postinstall": "npm install -g react-scripts serve && react-scripts build"
+  },
+  "engines": {
+    "node": "7.3.0"
   }
 }
